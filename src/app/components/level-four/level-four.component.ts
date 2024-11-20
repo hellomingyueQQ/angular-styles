@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { ButtonModule } from 'primeng/button';
 @Component({
-  selector: 'app-level-two',
+  selector: 'app-level-four',
   standalone: true,
   imports: [ButtonModule],
-  templateUrl: './level-two.component.html',
-  styleUrl: './level-two.component.scss'
+  templateUrl: './level-four.component.html',
+  styleUrl: './level-four.component.scss'
 })
-export class LevelTwoComponent {
+export class LevelFourComponent {
 
 }

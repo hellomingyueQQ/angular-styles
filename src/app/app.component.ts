@@ -10,9 +10,13 @@ import { Component } from '@angular/core';
       <div>
           <!-- Note: angular把组件定义的template塞到下面的标签中 -->
           <saa-app-nav></saa-app-nav>
-          <!-- Note: ViewEncapsulation.ShadowDom例子:可以建立某个区域的全局样式，可以利用到labs-Translations -->
-          <app-level-one></app-level-one>
+         
+       
       </div>
+ <!-- Note: ViewEncapsulation.ShadowDom例子:建立某个区域的全局样式，这个方法不太行 -->
+  <!-- shadow dom会拦截全局样式，这个肯定的styles.css样式，这个是一定的 -->
+      <app-level-one></app-level-one>
+      <app-level-three></app-level-three>
   `
 })
 
