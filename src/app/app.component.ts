@@ -17,6 +17,9 @@ import { Component } from '@angular/core';
   <!-- shadow dom会拦截全局样式，这个肯定的styles.css样式，这个是一定的 -->
       <app-level-one></app-level-one>
       <app-level-three></app-level-three>
+      <br/>
+      <div>The following button is normal used</div>
+      <p-button label="Submit" />
   `
 })
 
