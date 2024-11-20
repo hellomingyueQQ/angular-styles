@@ -4,7 +4,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
     // encapsulation: ViewEncapsulation.None, // Note:  None 编译后的html和style均没有scoping attributes，style相当于全局样式，对其他组件有影响
     // 有一个用处，可以None用在root component里面，里面的样式也相当于放在了全局样式里面，
     // 拓展一下，回看labsTranslation，不用专门建立folder，全部放在labsTranslation的component里面好像也可以。
-    encapsulation: ViewEncapsulation.ShadowDom,// Note: 完全是shadow dom，header里面不会出现style，且shadowdom会出现没有scoping attribute的html和css
+    // encapsulation: ViewEncapsulation.ShadowDom,// Note: 完全是shadow dom，header里面不会出现style，且shadowdom会出现没有scoping attribute的html和css
     selector: 'saa-app-nav',
     template: `
         <div>
