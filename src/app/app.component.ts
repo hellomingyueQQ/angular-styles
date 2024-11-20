@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
           <em>For Modern Angular Applications</em>
       </header>
       <div>
+          <!-- Note: angular把组件定义的template塞到下面的标签中 -->
           <saa-app-nav></saa-app-nav>
       </div>
   `

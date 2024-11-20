@@ -20,6 +20,7 @@ import { Component } from '@angular/core';
             </ul>
         </div>
     `,
+    // Note: 如果删除styles，那么选然出现的html不带有scoping attributes
     styles: [`
 
         div {
