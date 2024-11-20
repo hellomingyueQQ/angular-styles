@@ -1,11 +1,10 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { LevelFourComponent } from "../level-four/level-four.component";
-
+import { ButtonModule } from 'primeng/button';
 @Component({
   encapsulation: ViewEncapsulation.ShadowDom,
   selector: 'app-level-three',
   standalone: true,
-  imports: [LevelFourComponent],
+  imports: [ButtonModule],
   templateUrl: './level-three.component.html',
   styleUrl: './level-three.component.scss'
 })
