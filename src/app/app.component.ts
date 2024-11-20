@@ -24,3 +24,6 @@ import { Component } from '@angular/core';
   `,
 })
 export class AppComponent { }
+
+// Note: 现在的做法是引入library样式到LabSTranslation上的最顶级组件
+// 这也能解释为什么overlay的background没有颜色了，ph组的问题
