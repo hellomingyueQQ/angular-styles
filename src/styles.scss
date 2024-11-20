@@ -1,9 +1,13 @@
-// @import 'primeng/resources/themes/lara-light-blue/theme.css';
-// @import 'primeng/resources/primeng.min.css';
+@import 'primeng/resources/themes/lara-light-blue/theme.css';
+@import 'primeng/resources/primeng.min.css';
 
 // @import 'primeng/resources/themes/vela-orange/theme.css';
 // @import 'primeng/resources/primeng.min.css';
+// Note: 这个全局样式影响不了shadow dom，目前的写法，
 
-// Note: 全局样式依然对angular中的shadowdom有影响
+* {
+  color: red !important;
+}
+// Note: 这里面的import不一定比shadow dom里面的优先级高
 
-
+// Note: 到此，我感觉成了

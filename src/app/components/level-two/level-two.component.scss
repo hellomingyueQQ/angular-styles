@@ -1,0 +1,5 @@
+.level-two-class {
+  color: purple;
+}
+
+// Note: 果然，如果是shadow dom元素，设置了样式，全局样式无法影响。
