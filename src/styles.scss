@@ -3,7 +3,7 @@
 
 // @import 'primeng/resources/themes/vela-orange/theme.css';
 // @import 'primeng/resources/primeng.min.css';
-// Note: 这个全局样式影响不了shadow dom，目前的写法，
+// Note: 这个全局样式对于shadowdom其他primeng样式的干扰，被编译到link：css里面，影响多少不确定
 
 * {
   color: red !important;
