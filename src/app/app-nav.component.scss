@@ -1,24 +1,25 @@
 :host-context(.example) {
-    background: #675BA7; 
-    border-radius: 0.5em;
-    display: block; 
-    margin: 1.5em 0; 
-    padding: 1em 1.2em;
+  // Note: 组件的selector有这个class或者任何一个父元素有这个class都可以
+  background: #675ba7;
+  border-radius: 0.5em;
+  display: block;
+  margin: 1.5em 0;
+  padding: 1em 1.2em;
 }
 
 ul {
-    display: flex; 
-    list-style: none; 
-    margin: 0; 
-    padding: 0;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    color: #fff; 
-    padding: 0 1em; 
-    text-decoration: none;
+  color: #fff;
+  padding: 0 1em;
+  text-decoration: none;
 }
-    
+
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
