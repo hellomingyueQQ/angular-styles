@@ -1,5 +1,6 @@
 :host-context(.example) {
   // Note: 组件的selector有这个class或者任何一个父元素有这个class都可以
+  // .example[xxx], .example [xxx]
   background: #675ba7;
   border-radius: 0.5em;
   display: block;
