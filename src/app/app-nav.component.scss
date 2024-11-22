@@ -1,24 +1,28 @@
+// Note: [_nghost-ng-c1989480700]
 :host {
-    background: #2A9FBC; 
-    border-radius: 0.5em;
-    display: block; 
-    margin: 1.5em 0; 
-    padding: 1em 1.2em;
+  background: #2a9fbc;
+  border-radius: 0.5em;
+  display: block;
+  margin: 1.5em 0;
+  padding: 1em 1.2em;
 }
-
+// Note: ul[_ngcontent-ng-c1989480700]
 ul {
-    display: flex; 
-    list-style: none; 
-    margin: 0; 
-    padding: 0;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
+// Note:通过ng-deep提供默认样式
+// Note: [_nghost-ng-c1989480700]   ul[_ngcontent-ng-c1989480700]     a
+// Note: 因为这里a没有带scoping attribute，所以能控制ng-content的内容
 :host ul ::ng-deep a {
-    color: #fff;
-    padding: 0 1em; 
-    text-decoration: none;
+  color: #fff;
+  padding: 0 1em;
+  text-decoration: none;
 }
 
 :host ul ::ng-deep a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
